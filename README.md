@@ -4,7 +4,7 @@
 
 This project simulates a real-world inventory optimization system for a grocery retail chain using the Corporación Favorita dataset. The goal was to create a business-focused, AI-powered solution for demand forecasting and inventory replenishment, designed as if deployed inside a supply chain analytics team.
 
-Instead of treating it as a Kaggle competition, the approach here was to build a modular, production-ready pipeline capable of forecasting demand, determining reorder points, setting safety stock levels, and triggering replenishment — all while being interpretable for stakeholders.
+Instead of treating it as a Kaggle competition, the approach here was to build a modular, production-ready pipeline capable of forecasting demand, determining reorder points, setting safety stock levels, and triggering replenishment, all while being interpretable for stakeholders.
 
 To keep the project efficient on local compute, forecasting was scoped to the top 4 high-performing stores and top 4 highest-volume product families, while maintaining scalability to the full dataset.
 
